@@ -1,0 +1,9 @@
+plots:
+- dvclive/plots/metrics:
+    x: step
+artifacts:
+  mymodel:
+    path: mymodel
+    type: model
+metrics:
+- dvclive/metrics.json
